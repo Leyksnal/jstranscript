@@ -283,3 +283,30 @@
 // let time = new Date()
 
 // console.log(time.getDay())
+
+// Object literal
+// const man = { id: 1, name: "john", class: "jss3" }
+
+// console.log(man.class)
+
+
+//litera
+// const lady = new Object();
+
+// lady.id = 101;
+// lady.name = "ashake";
+// lady.salary = 400000;
+// console.log(lady.name)
+
+
+//constructor
+// class car {
+//     constructor(id, name, branch) {
+//         this.id = id;
+//         this.name = name;
+//         this.branch = branch;
+//     }
+// }
+// car = new car(20985, "Benz", "ikeja");
+
+// console.log(car.id)

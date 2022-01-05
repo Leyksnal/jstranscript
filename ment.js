@@ -310,3 +310,33 @@
 // car = new car(20985, "Benz", "ikeja");
 
 // console.log(car.id)
+
+
+class teacher {
+    constructor(name, gender, subject, course) {
+        this.name = name
+        this.gender = gender
+        this.subject = subject
+        this.position = course
+    }
+
+    getName = () => {
+        return this.name
+    }
+
+    getGender = () => {
+        return this.gender
+    }
+
+    getSubject = () => {
+        return this.subject
+    }
+
+    getCourse = () => {
+        return this.course
+    }
+}
+
+let firstTeacher = new teacher("Mr Bankole", "Male", "Math", 245)
+
+let secondTeacher = new teacher("Mrs Derby", "Female", "English", 656)

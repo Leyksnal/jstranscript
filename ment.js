@@ -312,31 +312,76 @@
 // console.log(car.id)
 
 
-class teacher {
-    constructor(name, gender, subject, course) {
-        this.name = name
-        this.gender = gender
-        this.subject = subject
-        this.position = course
-    }
+// class teacher {
+//     constructor(name, gender, subject, course) {
+//         this.name = name
+//         this.gender = gender
+//         this.subject = subject
+//         this.position = course
+//     }
 
-    getName = () => {
-        return this.name
-    }
+//     getName = () => {
+//         return this.name
+//     }
 
-    getGender = () => {
-        return this.gender
-    }
+//     getGender = () => {
+//         return this.gender
+//     }
 
-    getSubject = () => {
-        return this.subject
-    }
+//     getSubject = () => {
+//         return this.subject
+//     }
 
-    getCourse = () => {
-        return this.course
-    }
-}
+//     getCourse = () => {
+//         return this.course
+//     }
+// }
 
-let firstTeacher = new teacher("Mr Bankole", "Male", "Math", 245)
+// let firstTeacher = new teacher("Mr Bankole", "Male", "Math", 245)
 
-let secondTeacher = new teacher("Mrs Derby", "Female", "English", 656)
+// let secondTeacher = new teacher("Mrs Derby", "Female", "English", 656)
+
+
+// let count = 0
+// let moduleCheck, arrayNumber
+// for (arrayNumber = 2; arrayNumber <= 20; arrayNumber++) {
+//     for (moduleCheck = 1; moduleCheck <= arrayNumber; moduleCheck++) {
+//         if (arrayNumber % moduleCheck == 0) {
+//             count++
+//         }
+//     }
+
+//     if (count == 2)
+//         console.log(arrayNumber)
+//     count = 0
+// }
+
+// const theTime = () => {
+//     const date = new Date()
+//     document.getElementById("demo").innerHTML = date.toLocaleTimeString();
+// }
+
+
+// const bigTime = setInterval(theTime, 1000)
+
+
+//interval
+
+// setTimeout(() => {
+//     console.log("This people na set 04 dem be")
+//     clearInterval(theTime)
+// }, 5000);
+
+// let theTime = setInterval(() => {
+//     console.log("Yes they are all se 05")
+// }, 1000);
+
+// setTimeout(() => {
+//     console.log("Mr Ubani is our JavaScript Teacher dont ask me again")
+//     clearInterval(question)
+// }, 5000)
+
+
+// let question = setInterval(() => {
+//     console.log("who is your Javascript Teacher?")
+// }, 1000);
